@@ -1,0 +1,20 @@
+#include<cstdio>
+
+long int factorial(long int n)
+{
+   int fact=1;
+    for(int i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+   return  fact;
+}
+
+int main()
+{
+    long int num=4;
+    printf("%ld",factorial(num));
+
+    return 0;
+
+}

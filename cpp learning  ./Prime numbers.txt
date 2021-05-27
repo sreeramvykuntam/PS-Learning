@@ -1,0 +1,25 @@
+#include<cstdio>
+
+int main()
+{
+    bool flag=false;
+    for(int j=2;j<100;j++)
+   {
+       bool flag=true;
+     for(int i=2;i<j;i++)
+     {
+      if(j%i==0)
+      {
+        flag=false;
+        break;
+      }
+
+     }   
+
+    if(flag) 
+      printf("%d\t",j);
+
+   }
+    return 0;
+
+}

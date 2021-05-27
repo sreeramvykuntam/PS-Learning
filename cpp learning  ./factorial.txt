@@ -1,0 +1,32 @@
+#include<cstdio>
+
+template<typename T>
+T factorial(T n)
+{
+   T fact=1;
+    for(int i=1;i<=n;i++)
+    {
+        fact=fact*i;
+    }
+   return  fact;
+}
+
+int main()
+{
+    int x=5;
+    printf("%d\n",factorial(x));
+
+    long int num=4;
+    printf("%ld\n",factorial(num));
+     
+   long long unsigned int y=3;
+    printf("%lld\n",factorial(y));
+     
+     
+
+    return 0;
+ 
+    
+    
+
+}
